@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+h1 {
+    color: #333;
+   
+    animation: colorChange 3s infinite alternate;
+  }
+  
+  @keyframes colorChange {
+    0% {
+      color: #333;
+    }
+    50% {
+      color: #ff0000; /* Change to the desired color */
+    }
+    100% {
+      color: #333;
+    }
+  }
+  
+.artist-list{
+    width: 50%;
+    margin: auto;
+}
+
+.artist-card {
+    border: 42px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    
+    box-shadow: 10px 10px 10px rgba(21, 25, 159, 0.5);
+
+}
+
+.artist-card img{
+    width: 34%;
+    border-radius: 100%;
+}
+
+.artist-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.artist-genres {
+    font-size: 14px;
+    color: #777;
+}
